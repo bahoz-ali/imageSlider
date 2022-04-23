@@ -1,0 +1,41 @@
+.slider {
+  width: 800px;
+  height: 500px;
+  background-color: #a5a1a8;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+.slides {
+  width: 1000%;
+  display: flex;
+  transition: all 1000ms linear;
+}
+
+.image-container {
+  width: 800px;
+  height: 500px;
+}
+
+.slides img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.next {
+  position: absolute;
+  top: 250px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.prev {
+  position: absolute;
+  cursor: pointer;
+  top: 250px;
+  left: 25px;
+}
+
